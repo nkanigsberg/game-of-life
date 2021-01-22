@@ -24,13 +24,23 @@
       <canvas id="lifeCanvas"></canvas>
     
       <div class="controls">
-        <div>
-          <span id="playMessage">Paused</span>
-          <button id="play" type="button" title="Play/Pause"><i class="fas fa-play"></i></button>
-          <button id="clear" type="button" title="Clear"><i class="fas fa-trash"></i></button>
+        <div class="left">
+          <div>
+            <span id="playMessage">Paused</span>
+            <button id="play" type="button" title="Play/Pause"><i class="fas fa-play"></i></button>
+            <button id="clear" type="button" title="Clear"><i class="fas fa-trash"></i></button>
+          </div>
+          
+          <div>
+            <label for="variant">Variant:</label>
+            <select id="variant">
+              <option value="standard">Standard</option>
+              <option value="highLife">High Life</option>
+            </select>
+          </div>
         </div>
     
-        <div>
+        <div class="right">
           <label for="speed">Speed:</label>
           <input id="speed" type="range" min="10" max="1000" step="10">
           <span id="speedMessage">500ms</span>

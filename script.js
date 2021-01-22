@@ -2,6 +2,7 @@
   // possible to not check EVERY cell on play?
   // grid/cell size options
   // option to reset to seed - so people won't lose what they started with
+  // variant select - different rulesets
 
 // ========================== Cell ======================== //
 

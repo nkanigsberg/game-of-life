@@ -1,4 +1,4 @@
-<h3>Game of Life</h3>
+<h1>Game of Life</h1>
 <p>Based on <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a></p>
 <h2>Rules</h2>
 <h3>Standard</h3>
